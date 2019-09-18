@@ -17,9 +17,24 @@ class App extends React.Component {
     country: undefined,
     humidity: undefined,
     description: undefined,
-    error: undefined
+    error: undefined,
+    screenWidth: null
 
   }
+
+  updateWindowDimensions() {
+    this.setState({ screenWidth: window.innerWidth });
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.updateWindowDimensions());
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
+  }
+
+
   getWeather = async (event) => {
 
     event.preventDefault();
