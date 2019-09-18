@@ -20,7 +20,7 @@ div {
 }
 
 @media screen and (min-width: 450px){
-  .formWeather form-container{
+  .formWeather{
     width:100%;
   }
   
