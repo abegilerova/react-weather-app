@@ -20,7 +20,7 @@ div {
 }
 
 @media only screen and (max-width: 480px) {
-  .formWeather {
+  .inputForm{
       width: 100%;
   }
 }
