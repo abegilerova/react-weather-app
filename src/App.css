@@ -19,7 +19,7 @@ div {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 828px) {
   .inputForm{
       width: 100%;
   }
@@ -82,7 +82,6 @@ input[type="text"] {
   background-color: transparent;
   border: 0;
   border-bottom: solid 1px #f16051;
-  width: 30%;
   padding-bottom: 4px;
   color: #fff !important;
   font-weight: lighter;
