@@ -6,7 +6,24 @@ body {
   font-family: "Open Sans", serif;
 }
 
+div {
+  width: 100%;
+}
+
+@media screen and (min-width: 450px){
+  .col-xs-7 form-container{
+    width:75%;
+  }
+  .col-xs-5 title-container{
+    width: 25%;
+  }
+}
+
+
+
 .wrapper {
+  display:flex;
+  flex-wrap: wrap;
   background: linear-gradient(to right, #c95c19, #8c4896);
   height: 100vh;
   display: flex;
