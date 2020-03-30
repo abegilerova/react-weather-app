@@ -4,7 +4,20 @@
 
 body {
   font-family: "Open Sans", serif;
+  
 }
+
+
+.container {
+  padding:0;
+  margin:0;
+  height: 100%;
+  width:100%;
+  position: absolute;
+ 
+  
+}
+
 
 div {
   width: 100%;
@@ -29,12 +42,11 @@ div {
 
 .wrapper {
   display:flex;
-  flex-wrap: wrap;
-  background: linear-gradient(to right, #c95c19, #8c4896);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding:0;
+  margin:0;
+  height: 100%;
+  width:100%;
+  position: relative;
 }
 
 .main {
